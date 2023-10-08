@@ -1,49 +1,74 @@
-document.getElementById("login").addEventListener("submit", function(e) {
-  e.preventDefault();
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="username"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm" action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
 
-  // Get ur variables and stuff
-  var username = document.getElementById("Uname").value;
-  var password = document.getElementById("Pass").value;
+    <script>
+        // You can add JavaScript for form validation and submission here.
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
 
-  // If username and password are... then you...
-  if (username === "djdsryjhdjnhfg" && password === "xsjfdhsuhgdjish") {
-    window.location.href = "https://iiren3.github.io/metav5/"; // DONT FORGET TO ADD https://
-  }
-  // You can also add this multiple times.
-  if (username === "lasgndjshndf" && password === "djsghuh") {
-    window.location.href = "https://iiren3.github.io/metav5/";
-  }
-    if (username === "husdhgudhu" && password === "dfsjigdjis") {
-    window.location.href = "https://iiren3.github.io/metav5/"
-  }
-      if (username === "adsfgdsdsfds" && password === "afddasfsdg") {
-    window.location.href = "https://iiren3.github.io/metav5/"
-  }
-if (username === "......ada.." && password === "..adsa..") {
-    window.location.href = "https://iiren3.github.io/metav5/"
-  } 
-        // If the password/username isnt correct then display a message
-  else {
-    document.getElementById("message").textContent = "Oh my, We can not accept your request currently. Please try again later. ";
-  }
-});
-document.getElementById("login").addEventListener("submit", function(e) {
-  e.preventDefault();
+            // You can add logic here to validate the username and password.
+            // For a real application, this should involve server-side authentication.
 
-  // Get ur variables and stuff
-  var username = document.getElementById("befr").value;
-  var password = document.getElementById("gatekeep").value;
-
-  // If username and password are... then you...
-  if (username === "befr" && password === "gatekeep") {
-    window.location.href = "https://iiren3.github.io/metav5/"; // DONT FORGET TO ADD https://
-  }
-  // You can also add this multiple times.
-  if (username === "befr" && password === "gatekeep") {
-    window.location.href = "https://iiren3.github.io/metav5/";
-  }
-  // If the password/username isnt correct then display a message
-  else {
-    document.getElementById("message").textContent = "Nope ur stuff isnt correct dummy lol";
-  }
-});
+            // For demonstration purposes, we'll just show a message.
+            alert(`Logged in as: ${username}`);
+        });
+    </script>
+</body>
+</html>

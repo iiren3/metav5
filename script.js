@@ -7,20 +7,20 @@ document.getElementById("login").addEventListener("submit", function(e) {
 
   // If username and password are... then you...
   if (username === "djdsryjhdjnhfg" && password === "xsjfdhsuhgdjish") {
-    window.location.href = "just-a-stupid-game.cupcakeraptors1.repl.co/"; // DONT FORGET TO ADD https://
+    window.location.href = "https://iiren3.github.io/metav5/"; // DONT FORGET TO ADD https://
   }
   // You can also add this multiple times.
   if (username === "lasgndjshndf" && password === "djsghuh") {
-    window.location.href = "https://www.google.com/";
+    window.location.href = "https://iiren3.github.io/metav5/";
   }
     if (username === "husdhgudhu" && password === "dfsjigdjis") {
-    window.location.href = "https://www.google.com/"
+    window.location.href = "https://iiren3.github.io/metav5/"
   }
       if (username === "adsfgdsdsfds" && password === "afddasfsdg") {
-    window.location.href = "https://www.google.com/"
+    window.location.href = "https://iiren3.github.io/metav5/"
   }
 if (username === "......ada.." && password === "..adsa..") {
-    window.location.href = "https://www.google.com/"
+    window.location.href = "https://iiren3.github.io/metav5/"
   } 
         // If the password/username isnt correct then display a message
   else {
@@ -35,12 +35,12 @@ document.getElementById("login").addEventListener("submit", function(e) {
   var password = document.getElementById("gatekeep").value;
 
   // If username and password are... then you...
-  if (username === "Your username" && password === "Your password") {
-    window.location.href = "Your website"; // DONT FORGET TO ADD https://
+  if (username === "befr" && password === "gatekeep") {
+    window.location.href = "https://iiren3.github.io/metav5/"; // DONT FORGET TO ADD https://
   }
   // You can also add this multiple times.
-  if (username === "Your username 2" && password === "Your password 2") {
-    window.location.href = "Your website 2";
+  if (username === "befr" && password === "gatekeep") {
+    window.location.href = "https://iiren3.github.io/metav5/";
   }
   // If the password/username isnt correct then display a message
   else {
